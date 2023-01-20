@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mid-content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+.banner {
+    background-image: url('../images/banner/banner2.png');
+    padding: 380px;
+}
+
+.banner button {
+    color: white;
+    background-color: #F15B22;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}
+
+.banner-content {
+    color: white;
+    text-align: right;
+    margin-right: 70px;
+    position: absolute;
+    top: 140px;
+    left: 814px;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+}
+
+.banner-content p {
+    padding: 20px 0;
+}
+
+
+
+
+.my-endorsements {
+    display: flex;
+    padding: 50px 0;
+}
+
+.endorsement-content {
+    width: 60%;
+    margin-top: 150px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.endorsement-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 47px;
+    left: 883px;
+    top: 1152px;
+}
+
+.endorsement-content p {
+    width: 600px;
+    padding: 20px 0;
+    line-height: 25px
+}
+
+.endorsement-content ul {
+    list-style: none;
+}
+
+.endorsement-content ul li {
+    padding: 7px;
+}
+
+.endorsement-content ul li {
+    font-size: 22px;
+}
+
+
+
+.my-plan {
+    padding: 50px 0;
+}
+
+.item {
+    display: flex;
+    margin-top: 50px;
+}
+
+.my-plan h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.items {
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+}
+
+.items h3 {
+    padding: 20px 0;
+}
+
+.items p {
+    color: gray;
+    font-weight: 500;
+}
+
+
+
+.call-section {
+    background: url('../images/watch.png') no-repeat center center;
+    padding: 150px 0;
+    margin: 100px auto;
+    position: relative;
+}
+
+.call-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 78px;
+    width: 77%;
+    height: 100%;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 10px;
+}
+
+.call-content {
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 99;
+}
+
+.call-content h1 {
+    font-size: 50px;
+}
+
+.call-content button {
+    margin-top: 20px;
+    color: #F15B22;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}
+
+
+
+
+.last-part {
+    background: black;
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-content h1 {
+    font-size: 50px;
+}
+
+.left-content .text {
+    width: 600px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.left-content .email {
+    padding: 10px 0;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons .facebook-icon {
+    font-size: 26px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: white;
+    color: blue;
+    border-radius: 50px;
+    width: 57px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.icons .twitter-icon {
+    font-size: 26px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: white;
+    color: #00acee;
+    border-radius: 50px;
+    width: 57px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.icons .youtube-icon {
+    font-size: 26px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: white;
+    color: red;
+    border-radius: 50px;
+    width: 57px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 0;
+}
+
+
+.right-content h3 {
+    font-size: 40px;
+}
+
+.right-content .email-input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.right-content button {
+    background-color: #005FAC;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 160px;
+}
